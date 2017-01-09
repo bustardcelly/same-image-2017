@@ -27,9 +27,9 @@ Explorations in drawing the same image every day, all year.
 </p>
 <p style="border: 1px solid #a1a1a1; width: 100%; max-width: 480px; padding: 10px 14px;">
   <span>January 6th</span><br>
-  <img src="images/20170107_orig.JPG" alt="January 7th, 2017" style="width: 100%;">
+  <img src="images/20170107.JPG" alt="January 7th, 2017" style="width: 100%;">
 </p>
 <p style="border: 1px solid #a1a1a1; width: 100%; max-width: 480px; padding: 10px 14px;">
   <span>January 6th</span><br>
-  <img src="images/20170108_orig.JPG" alt="January 8th, 2017" style="width: 100%;">
+  <img src="images/20170108.JPG" alt="January 8th, 2017" style="width: 100%;">
 </p>
