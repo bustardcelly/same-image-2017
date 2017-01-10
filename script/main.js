@@ -6,9 +6,12 @@
   var $reel = $('#image-reel');
   var $listItems = $('#image-list li');
   var $large = $('#image-large');
+  var $date = $('#image-date');
   $listItems.on('click', function () {
+    var title = $(this).find('img').attr('alt');
     var src = $(this).find('img').attr('src');
     $large.attr('src', src);
+    $date.text(title);
   });
 
   function onResize () {
