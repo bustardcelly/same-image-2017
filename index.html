@@ -1,0 +1,147 @@
+<!doctype html>
+<html>
+  <head>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <style>
+      body {
+        background-color: #aaa;
+      }
+      .panel {
+        width: 100%;
+        min-width: 320px;
+        max-width: 800px;
+        -webkit-box-ordinal-group: 2;   /* OLD - iOS 6-, Safari 3.1-6 */
+        -moz-box-ordinal-group: 2;      /* OLD - Firefox 19- */
+        -ms-flex-order: 2;              /* TWEENER - IE 10 */
+        -webkit-order: 2;               /* NEW - Chrome */
+        order: 1;                       /* NEW, Spec - Opera 12.1, Firefox 20+ */
+        background-color: #111;
+      }
+
+      .reel {
+        background-color: #333;
+        max-width: 240px;
+        height: 100%;
+        overflow-y: scroll;
+        -webkit-box-ordinal-group: 1;
+        -moz-box-ordinal-group: 1;
+        -ms-flex-order: 1;
+        -webkit-order: 1;
+        order: 1;
+        margin-left: 10px;
+      }
+
+      .page-wrap {
+        display: -webkit-box;      /* OLD - iOS 6-, Safari 3.1-6 */
+        display: -moz-box;         /* OLD - Firefox 19- (buggy but mostly works) */
+        display: -ms-flexbox;      /* TWEENER - IE 10 */
+        display: -webkit-flex;     /* NEW - Chrome */
+        display: flex;             /* NEW, Spec - Opera 12.1, Firefox 20+ */
+        max-width: 950px;
+        margin: auto;
+      }
+
+      .list {
+        list-style-type: none;
+        -webkit-margin-before: 1em;
+        -webkit-margin-after: 1em;
+        -webkit-margin-start: 0px;
+        -webkit-margin-end: 0px;
+        -webkit-padding-start: 0px;
+        padding: 0 10px;
+        margin: 10px 0
+      }
+
+      .list li {
+        width: 100%;
+        padding-bottom: 6px;
+      }
+
+      .list li span {
+        padding: 10px;
+        background-color: #ddd;
+        width: 70%;
+        display: block;
+      }
+
+      .list li img {
+        width: 100%;
+      }
+
+      #image-date {
+        display: block;
+        width: 100%;
+        text-align: center;
+        color: #eee;
+        margin: 6px -14px 6px;
+      }
+
+      #image-large {
+        display: block;
+        margin:  auto;
+      }
+
+      #header {
+        max-width: 950px;
+        width: 100%;
+        margin: 0 auto 6px auto;
+        background-color: #eee;
+        padding: 10px 0 6px 0;
+      }
+
+      .page-header {
+        padding: 0 20px;
+        margin: 0;
+      }
+
+      .page-subheader {
+        padding: 0 20px;
+        margin-top: 5px;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="header">
+      <h1 class="page-header">Same Image :: 2017</h1>
+      <p class="page-subheader">Explorations in drawing the same image every day, all year.</p>
+    </div>
+    <div class="page-wrap">
+      <section class="panel">
+        <span id="image-date">January 1st, 2017</span>
+        <img id="image-large" alt="Selected Image" src="images/20170101.JPG">
+      </section>
+      <aside id="image-reel" class="reel">
+            <ol id="image-list" class="list">
+              <li>
+                <img src="images/20170101.JPG" alt="January 1st, 2017">
+              </li>
+              <li>
+                <img src="images/20170102.JPG" alt="January 2nd, 2017">
+              </li>
+              <li>
+                <img src="images/20170103.JPG" alt="January 3rd, 2017">
+              </li>
+              <li>
+                <img src="images/20170104.JPG" alt="January 4th, 2017">
+              </li>
+              <li>
+                <img src="images/20170105.JPG" alt="January 5th, 2017">
+              </li>
+              <li>
+                <img src="images/20170106.JPG" alt="January 6th, 2017">
+              </li>
+              <li>
+                <img src="images/20170107.JPG" alt="January 7th, 2017">
+              </li>
+              <li>
+                <img src="images/20170108.JPG" alt="January 8th, 2017">
+              </li>
+              <li>
+                <img src="images/20170109.JPG" alt="January 9th, 2017">
+              </li>
+        </ol>
+      </aside>
+    </div>
+    <script src="script/main.js"></script>
+  </body>
+</html>
