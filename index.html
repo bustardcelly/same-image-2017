@@ -66,12 +66,31 @@
         display: block;
         margin: auto;
       }
+
+      #header {
+        max-width: 950px;
+        width: 100%;
+        margin: 0 auto 6px auto;
+        background-color: #eee;
+        padding: 10px 0;
+      }
+
+      .page-header {
+        padding: 0 20px;
+        margin: 0;
+      }
+
+      .page-subheader {
+        padding: 0 20px;
+        margin-top: 5px;
+        margin-bottom: 0px;
+      }
     </style>
   </head>
   <body>
     <div id="header">
-      <h1>Same Image :: 2017</h1>
-      <p>Explorations in drawing the same image every day, all year.</p>
+      <h1 class="page-header">Same Image :: 2017</h1>
+      <p class="page-subheader">Explorations in drawing the same image every day, all year.</p>
     </div>
     <div class="page-wrap">
       <section class="panel">
@@ -111,7 +130,11 @@
                 <span>January 8th</span>
                 <img src="images/20170108.JPG" alt="January 8th, 2017">
               </li>
-            </ol>
+              <li>
+                <span>January 9th</span>
+                <img src="images/20170109.JPG" alt="January 9th, 2017">
+              </li>
+        </ol>
       </aside>
     </div>
     <script src="script/main.js"></script>
