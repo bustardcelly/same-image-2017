@@ -19,14 +19,14 @@
     var w = window.innerWidth;
     var headerHeight = $header.innerHeight();
     if (w > h) {
-      $large.css('height', (h - headerHeight) + 'px');
+      $large.css('height', (h - headerHeight - $header.innerHeight()) + 'px');
       $large.css('width', '');
     }
     else {
       $large.css('width', '100%');
       $large.css('height', '');
     }
-    $reel.css('height', (h - headerHeight) + 'px');
+    $reel.css('height', (h - headerHeight - 20) + 'px');
   }
 
   $(window).on('resize', onResize);
