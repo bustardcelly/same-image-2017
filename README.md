@@ -45,3 +45,7 @@ Explorations in drawing the same image every day, all year.
   <span>January 11th</span><br>
   <img src="images/20170111.JPG" alt="January 11th, 2017" style="width: 100%;">
 </p>
+<p style="border: 1px solid #a1a1a1; width: 100%; max-width: 480px; padding: 10px 14px;">
+  <span>January 12th</span><br>
+  <img src="images/20170112.JPG" alt="January 12th, 2017" style="width: 100%;">
+</p>
